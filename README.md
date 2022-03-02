@@ -1,7 +1,7 @@
-# How can Machine Learning help today? 
+# How can we help? 
 ### Disaster Response Project
 
-![Intro Pic](screenshots/intro.png)
+![Intro Pic](images/intro.png)
 
 
 ## Table of Contents
@@ -43,7 +43,7 @@ This project is divided in the following key sections:
 ### Installing
 To clone the git repository:
 ```
-git clone https://github.com/canaveensetia/udacity-disaster-response-pipeline.git
+git clone https://github.com/toluwee/Disaster_response-with-ML.git
 ```
 <a name="execution"></a>
 ### Executing Program:
@@ -55,9 +55,9 @@ git clone https://github.com/canaveensetia/udacity-disaster-response-pipeline.gi
         `python models/train_classifier.py data/disaster_response_db.db models/classifier.pkl`
 
 2. Run the following command in the app's directory to run your web app.
-    `python app.py`
+    `python run.py`
 
-3. Go to http://0.0.0.0:3001/
+3. Go to http://192.168.0.85:3000/ 
 
 <a name="material"></a>
 ### Additional Material
@@ -98,25 +98,14 @@ You can use **ML Pipeline Preparation Notebook** to re-train the model or tune i
 
 1. This is an example of a message we can type to test the performance of the model
 
-![Sample Input](screenshots/sample_input.png)
+![Sample Input](images/sample_input.png)
 
 2. After clicking **Classify Message**, we can see the categories which the message belongs to highlighted in green
 
-![Sample Output](screenshots/sample_output.png)
+![Sample Output](images/sample_output.png)
 
 3. The main page shows some graphs about training dataset, provided by Figure Eight
 
-![Main Page](screenshots/main_page.png)
+![Main Page](images/main.png)
 
-4. Sample run of process_data.py
-
-![Process Data](screenshots/process_data.png)
-
-5. Sample run of train_classifier.py
-
-![Train Classifier without Category Level Precision Recall](screenshots/train_classifier.png)
-
-6. Sample run of train_classifier.py with precision, recall etc. for each category
-
-![Train Classifier with Category Level Precision Recall](screenshots/train_classifier_category_precision_recall.png)
 
