@@ -19,7 +19,16 @@
 <a name="descripton"></a>
 ## Description
 
-This Project is part of Data Science Nanodegree Program by Udacity in collaboration with Figure Eight. The dataset contains pre-labelled tweet and messages from real-life disaster events. The project aim is to build a Natural Language Processing (NLP) model to categorize messages on a real time basis.
+Constructed a database and ETL pipeline in SQLite to prepare message data from major natural disasters all over the world. In addition, a machine learning pipeline that uses a natural language processing (NLP) model was built to classify emergency messages based on the sender's stated need. Finally, the pipelines were used to create a website app that categorizes messages.
+
+
+Key Skills Demonstrated:
+* Data Modeling with SQLite
+* ETL Pipeline Creation
+* Machine learning Pipeline
+* NLP 
+* Flask Web App
+
 
 This project is divided in the following key sections:
 
@@ -57,7 +66,7 @@ git clone https://github.com/toluwee/Disaster_response-with-ML.git
 2. Run the following command in the app's directory to run your web app.
     `python run.py`
 
-3. Go to http://192.168.0.85:3000/ 
+3. Go to the http address displayed inthe terminal e.g.  http://192.168.0.85:3000/ 
 
 <a name="material"></a>
 ### Additional Material
